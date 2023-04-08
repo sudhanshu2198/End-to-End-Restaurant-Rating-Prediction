@@ -12,10 +12,10 @@ st.write("Restaurant Rating has become the most commonly used parameter for judg
 
 col1,col2=st.columns(2)
 with col1:
-    github="https://github.com/sudhanshu2198"
+    github="https://github.com/sudhanshu2198/End-to-End-Restaurant-Rating-Prediction"
     var1=st.write("Github Profile Link: {}".format(github))
 with col2:
-    kaggle="https://www.kaggle.com/sudhanshu2198"
+    kaggle="https://www.kaggle.com/code/sudhanshu2198/end-to-end-machine-learning?scriptVersionId=125040305"
     var1=st.write("Kaggle Link: {}".format(kaggle))
 
 file_dir=os.path.dirname(os.path.abspath(__file__))
