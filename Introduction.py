@@ -5,9 +5,10 @@ from matplotlib import image
 import os
 
 st.title("Restaurant Rating Prediction")
-st.write("Build an appropriate Machine Learning Model that will help various Restaurants to predict\
-          their respective Ratings based on certain features,get insights about the type of cuisine\
-         price range,important factors that determines Restaurant Ratings")
+st.subheader("The main goal of this is to get insights on restaurants which people like visit and to identify the rating of the restaurant.")
+st.write("Restaurant Rating has become the most commonly used parameter for judging a restaurant for any individual.\
+          Rating of a restaurant depends on factors like reviews, area situated, average cost for two people, votes, \
+          cuisines and the type of restaurant.")
 
 col1,col2=st.columns(2)
 with col1:
