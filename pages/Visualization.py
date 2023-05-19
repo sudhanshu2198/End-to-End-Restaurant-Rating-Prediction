@@ -70,7 +70,7 @@ frame=frame.T
 inter=df.groupby("Type")["Type"].count().sort_values(ascending=False)
 sol=pd.merge(left=inter,right=frame.loc[inter.index,:],on=inter.index)
 sol.rename(columns={"key_0":"Restauant Type","Type":"Numbers"},inplace=True)
-st.write(sol.style.background_gradient(cmap="YlOrRd",high=0.5))
+st.write(sol)
 
 #Barplot showing numbers of restaurant with top five famous cuisine
 
