@@ -130,7 +130,7 @@ with col2:
     inter=df[df['Type']==type]
     ser=inter.groupby('Name')[['Rating']].max()
     sol=ser.sort_values(by='Rating',ascending=False).head(10)
-    st.write(sol.style.background_gradient(cmap="YlOrRd",high=0.5),use_container_width=True)
+    st.write(sol,use_container_width=True)
    
 #Plot showcasing price and quality of top most famous cuisine in City
 st.subheader("Plot showcasing price and quality analysis of top most famous cuisine in City")
@@ -186,4 +186,4 @@ with col2:
     inter=df[df[Cuisine]==1]
     ser=inter.groupby('Name')[['Rating']].max()
     sol=ser.sort_values(by='Rating',ascending=False).head(10)
-    st.write(sol.style.background_gradient(cmap="YlOrRd",high=0.5),use_container_width=True)
+    st.write(sol,use_container_width=True)
