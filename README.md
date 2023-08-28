@@ -6,7 +6,7 @@ Restaurant Rating has become the most commonly used parameter for judging a rest
 
 **The main goal of this is to get insights on restaurants which people like visit and to identify the rating of the restaurant.**
 
-![](https://miro.medium.com/v2/resize:fit:720/format:webp/1*mNBXsQ8Weq1Nv30NmHnIlw.jpeg)
+![](https://github.com/sudhanshu2198/Machine-Learning-Python/blob/main/images/ezgif.com-optimize.gif)
 
 ## Dataset Features Description
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*Bfr4jbykhuJcUYCrC15u2w.png)
