@@ -15,7 +15,7 @@ Restaurant Rating has become the most commonly used parameter for judging a rest
 ## 🔗 Links
 
  - [App Link](https://sudhanshu2198-end-to-end-restaurant-rating--introduction-ts1jhq.streamlit.app/)
- - [Kaggle Notebook link](https://www.kaggle.com/code/sudhanshu2198/end-to-end-machine-learning)
+ - [Kaggle Notebook link](https://www.kaggle.com/code/sudhanshu2198/restaurant-rating-prediction-app/notebook)
 
 
 ## 🛠 Skills
